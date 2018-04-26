@@ -1,0 +1,54 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.5.2)
+      public_suffix (>= 2.0.2, < 4.0)
+    colorize (0.8.1)
+    domain_name (0.5.20180417)
+      unf (>= 0.0.5, < 1.0.0)
+    equatable (0.5.0)
+    hitimes (1.2.6)
+    http (3.3.0)
+      addressable (~> 2.3)
+      http-cookie (~> 1.0)
+      http-form_data (~> 2.0)
+      http_parser.rb (~> 0.6.0)
+    http-cookie (1.0.3)
+      domain_name (~> 0.5)
+    http-form_data (2.1.0)
+    http_parser.rb (0.6.0)
+    necromancer (0.4.0)
+    pastel (0.7.2)
+      equatable (~> 0.5.0)
+      tty-color (~> 0.4.0)
+    public_suffix (3.0.2)
+    timers (4.1.2)
+      hitimes
+    tty-color (0.4.2)
+    tty-cursor (0.5.0)
+    tty-prompt (0.16.0)
+      necromancer (~> 0.4.0)
+      pastel (~> 0.7.0)
+      timers (~> 4.0)
+      tty-cursor (~> 0.5.0)
+      tty-reader (~> 0.2.0)
+    tty-reader (0.2.0)
+      tty-cursor (~> 0.5.0)
+      tty-screen (~> 0.6.4)
+      wisper (~> 2.0.0)
+    tty-screen (0.6.4)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.5)
+    wisper (2.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  colorize
+  http
+  tty-prompt
+
+BUNDLED WITH
+   1.16.1
